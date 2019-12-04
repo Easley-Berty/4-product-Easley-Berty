@@ -15,8 +15,9 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('/w3images/parallax1.jpg');
+  background-image: url('/img/iu.jpeg');
   min-height: 100%;
+    height: 55em;
 }
 
 /* Second image (Portfolio) */
@@ -41,3 +42,13 @@ body, html {
     min-height: 400px;
   }
 }
+
+
+
+
+
+
+
+
+
+
