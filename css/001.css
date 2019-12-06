@@ -15,13 +15,14 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('/w3images/parallax1.jpg');
+  background-image: url('../img/iu.jpeg');
   min-height: 100%;
+    height: 55em;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url("/w3images/parallax2.jpg");
+  background-image: url("");
   min-height: 400px;
 }
 
@@ -29,6 +30,13 @@ body, html {
 .bgimg-3 {
   background-image: url("/w3images/parallax3.jpg");
   min-height: 400px;
+}
+
+.bgimg-4 {
+  background-image: url("../img/SCROOSER_LOGO.jpg");
+    width: 370px;
+    height: 51px;
+    
 }
 
 .w3-wide {letter-spacing: 10px;}
@@ -41,3 +49,27 @@ body, html {
     min-height: 400px;
   }
 }
+
+
+
+.video-1{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    backface-visibility: hidden;
+    border: none;
+    
+}
+
+.font-1{
+    font-family: 'Tomorrow', sans-serif;
+    letter-spacing: inherit;
+    color: black;
+    
+}
+
+
+
+
+
+
