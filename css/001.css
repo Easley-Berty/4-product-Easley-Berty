@@ -61,7 +61,12 @@ body, html {
     
 }
 
-
+.font-1{
+    font-family: 'Tomorrow', sans-serif;
+    letter-spacing: inherit;
+    color: black;
+    
+}
 
 
 
