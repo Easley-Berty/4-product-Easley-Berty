@@ -33,7 +33,7 @@ body, html {
 }
 
 .bgimg-4 {
-  background-image: url("../img/SCROOSER_LOGO.jpg");
+ 
     width: 370px;
     height: 51px;
     
@@ -68,7 +68,7 @@ body, html {
     
 }
 
-
+.mySlides {display:none;}
 
 
 
