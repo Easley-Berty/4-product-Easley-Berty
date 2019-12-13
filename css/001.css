@@ -22,8 +22,8 @@ body, html {
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url("");
-  min-height: 400px;
+  background-image: url("../img/iu-1.jpeg");
+  min-height: 375px;
 }
 
 /* Third image (Contact) */
@@ -33,9 +33,9 @@ body, html {
 }
 /* fourth img*/
 .bgimg-4 {
- 
-    width: 370px;
-    height: 51px;
+    background-image: url("../img/");
+    width: 
+    height: 
     
 }
 
