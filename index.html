@@ -23,8 +23,7 @@
         
     </head>
  
-<style>
-</style>
+
     
 <body>
 
@@ -44,7 +43,7 @@
       
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
       
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#gallery" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> Gallery</a>
       
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
       
@@ -64,15 +63,7 @@
 </div>
 
  
-  <!--  <div class="w3-content w3-display-container">
-  <img class="mySlides" src="/img/iu.jpeg" style="width:100%">
-  <img class="mySlides" src="img_lights.jpg" style="width:100%">
-  <img class="mySlides" src="img_mountains.jpg" style="width:100%">
-  <img class="mySlides" src="img_forest.jpg" style="width:100%">
-
-  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button> 
-</div> -->
+  
     
     
  <!-- First Parallax Image with Logo Text -->
@@ -99,7 +90,7 @@
     
 
   
-<button onclick="myFunction('Demo1')" class="w3-btn w3-block w3-black w3-left-align"> Click here</button>
+<button onclick="Function1('Demo1')" class="w3-btn w3-block w3-black w3-left-align"> Click here</button>
 <div id="Demo1" class="w3-container w3-hide">
     
   <h4>The Scrooser is a German Engineered electric powered scooter that is designed to be an efficient, sylish, inner-city mode of transportation that uses a set of wide tires and a low center of gravity to make the riding experience unique.</h4>
@@ -129,34 +120,62 @@
   </div>
    
     <!-- immages modal garely ect -->
-    
+  <section style="padding: 50px" id="gallery">  
     <div>
-  <p class="w3-large w3-center w3-padding-16">  Gallery  </p>
-    <div class="w3-container">
-  <h2>Photo Card</h2>
+  
+      
+      <div style="text-align:center">
+  <h2>Welcome To The Image Gallery</h2>
+  <p>Click on the images below to see more SCROOSER:</p>
+</div>
 
-  <div class="w3-card-4" style="width:50%">
-    <img src="img_snowtops.jpg" alt="Alps" style="width:100%">
-    <div class="w3-container w3-center">
-      <p>The Italian / Austrian Alps</p>
-    </div>
+      
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+    <img src="/img/scrooser1.jpeg" alt="" style="width:100%" onclick="myFunction(this);">
+      
+  </div>
+    
+  <div class="column">
+      
+    <img src="/img/scrooser2.jpeg" alt="" style="width:100%" onclick="myFunction(this);">
+      
+  </div>
+    
+  <div class="column">
+      
+    <img src="/img/scrooser3.jpeg" alt="" style="width:100%" onclick="myFunction(this);">
+      
+  </div>
+    
+  <div class="column">
+      
+    <img src="/img/scrooser4.png" alt="" style="width:100%" onclick="myFunction(this);">
+      
   </div>
 </div>
-        
-        
-    
-        
-        
 
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+      
+   
+</section>
+        
 <!-- Second Parallax Image with Portfolio Text -->
-<div class="bgimg-2 w3-display-container w3-opacity-min">
+    
+<div class="bgimg- w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+    <span class="w3-xxlarge w3-text-gray w3-wide">PORTFOLIO</span>
   </div>
 </div>
 
 <!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-64" id="portfolio">
+<div class="w3-content w3-container w3-padding-64" id="">
   <h3 class="w3-center">MY WORK</h3>
   <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
 
@@ -217,8 +236,8 @@
      <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
   </div>
 </div>
-
-<!-- Container (Contact Section) -->
+    
+<!-- Container (Contact Section) 
 <div class="w3-content w3-container w3-padding-64" id="contact">
   <h3 class="w3-center">WHERE I WORK</h3>
   <p class="w3-center"><em>I'd love your feedback!</em></p>
@@ -269,7 +288,7 @@
 <script src="js/script00-1.js"></script>
     <script src="js/slideshow.js"></script>
 <script src="js/acc.js"></script>>
-  
+    <script src="/js/gallery.js"></script>>
     
 </body>
 </html>
