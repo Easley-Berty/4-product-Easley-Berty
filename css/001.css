@@ -68,6 +68,12 @@ body, html {
     
 }
 
+.font-2{
+     font-family: 'Tomorrow', sans-serif;
+    letter-spacing: inherit;    
+    
+}
+
 .mySlides {display:none;}
 
 
